@@ -1,0 +1,25 @@
+{
+  "name": "mean_project",
+  "version": "0.0.0",
+  "description": "Simple MEAN project structure",
+  "main": "server.js",
+  "author": "davidabrahams",
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "nodemon": "^1.12.1"
+  }
+}
